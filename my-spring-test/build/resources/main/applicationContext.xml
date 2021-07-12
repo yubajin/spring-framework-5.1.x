@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	   xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	   xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+	<bean class="entity.Person" id="person"></bean>
+	<bean class="entity.Teacher" id="teacher">
+		<property name="name" value="zhangshan"></property>
+	</bean>
+
+<!--	<bean class="entity.A" id="circleA" scope="singleton">-->
+<!--		<property name="b" ref="circleB"></property>-->
+<!--	</bean>-->
+
+<!--	<bean class="entity.B" id="circleB" scope="singleton">-->
+<!--		<property name="a" ref="circleA"></property>-->
+<!--	</bean>-->
+</beans>
