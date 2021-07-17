@@ -1,5 +1,3 @@
-import entity.A;
-import entity.B;
 import entity.Person;
 import entity.Teacher;
 import org.springframework.context.support.ClassPathXmlApplicationContext;
